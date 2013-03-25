@@ -17,7 +17,7 @@ group :production do
 end
 
 group :development do
-  gem 'sqlite3' 
+  gem 'pg', '0.12.2' 
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
